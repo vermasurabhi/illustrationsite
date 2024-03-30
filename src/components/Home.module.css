@@ -1,0 +1,141 @@
+.outerdiv {
+    max-width: 860px;
+    /* background-color: blanchedalmond; */
+}
+
+.innerdiv {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Elisebold";
+    font-size: 60px;
+    /* color: #343a40; */
+}
+
+.pic {
+    max-width: 400px;
+    max-height: 600px;
+    object-fit: cover;
+    padding: 5px;
+    color: inherit;
+    /* background-image: url("../assets/peacock.png"); */
+}
+
+a .deco {
+    font-size: inherit;
+    color: #343a40;
+}
+
+
+
+.decop {
+    font-family: "Spartan-Light";
+    font-size: smaller;
+    font-size: 30px;
+}
+
+.decophead {
+    font-family: "Spartan-Light";
+    /* font-size: smaller; */
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    color: inherit;
+}
+
+.themeOne {
+    color: #343a40;
+}
+
+.themetwo {
+    color: #49562C;
+}
+.themethree {
+    color: white;
+}
+.themefour {
+    color: #ABA58C;
+}
+
+.themefive {
+    color:#E1D3B6;
+}
+
+.imagecard {
+    background-color: inherit;
+}
+
+.carddesc {
+    font-family: "Spartan-Light";
+    font-size: smaller;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bodycard {
+    background-color: red;
+}
+
+.carddesign { 
+    min-width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.cardimage {
+    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img1 {
+    background-image: url("/illustration/stilllife.png");
+    transition: transform .5s ease;
+}
+.img5 {
+    background-image: url("/illustration/strawberrybuccket.png");
+    transition: transform .5s ease;
+}
+.img3 {
+    background-image: url("/illustration/simleflorapattn.png");
+    transition: transform .5s ease;
+}
+.img4 {
+    background-image: url("/illustration/pattern4.png");
+    transition: transform .5s ease;
+}
+.img2 {
+    background-image: url("/illustration/magnilemon.png");
+    transition: transform .5s ease;
+}
+
+.img1:hover {
+    transform: scale(1.03);
+  }
+  .img2:hover {
+    transform: scale(1.03);
+  }
+  .img3:hover {
+    transform: scale(1.03);
+  }
+  .img4:hover {
+    transform: scale(1.03);
+  }
+
+
+.cards {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background-color: black; */
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.cards:hover {
+    opacity: 0%;
+}

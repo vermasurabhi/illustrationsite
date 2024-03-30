@@ -1,0 +1,25 @@
+a:link {
+    color: black !important;
+}
+
+.nav-link {
+    color: none;
+}
+
+.themeOne {
+    color: #343a40;
+}
+
+.themetwo {
+    color: #49562C;
+}
+.themethree {
+    color: white;
+}
+.themefour {
+    color: #ABA58C;
+}
+
+.themefive {
+    color:#E1D3B6;
+}
